@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5f635d86-5b70-4421-8332-89ae702c7c33")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "OUT3V3"
+		(shape output)
+		(at 110.49 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5297f1cb-c81e-4bed-9399-43c7640eac29")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 96.52 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91da869c-4836-419d-9a0b-14d616682e8b")
+	)
+)

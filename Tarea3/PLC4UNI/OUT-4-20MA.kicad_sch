@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3e41b343-6391-49e7-b6b9-773246d561fd")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "OUT-4-20MA"
+		(shape output)
+		(at 129.54 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02bf969c-485c-4218-a88f-a7b418507338")
+	)
+	(hierarchical_label "I2C_CLK"
+		(shape input)
+		(at 104.14 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c638124-6a28-4ca0-8fe5-31e0573f21a9")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape input)
+		(at 104.14 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75cba71e-9d40-4ceb-9a15-a457c5b9e72c")
+	)
+	(hierarchical_label "{slash}ALARM"
+		(shape input)
+		(at 104.14 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df95d237-e6c0-4003-a682-544fb6939934")
+	)
+)
