@@ -29,7 +29,7 @@
 	)
 	(hierarchical_label "TX"
 		(shape output)
-		(at 110.49 69.85 0)
+		(at 208.28 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,7 +51,7 @@
 	)
 	(hierarchical_label "RX"
 		(shape output)
-		(at 110.49 66.04 0)
+		(at 208.28 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)

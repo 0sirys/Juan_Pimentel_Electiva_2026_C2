@@ -648,7 +648,7 @@
         "uuid": "f171b770-6a1a-4d3a-9dbb-25a622b94557"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C38,TP4-7,R53-55,U18-19,#PWR63-65,#PWR68-69,#PWR72-75",
     "variants": []
   },
   "sheets": [
@@ -661,28 +661,28 @@
       "plc4uni_top"
     ],
     [
-      "65162de4-91ae-41b5-a042-93e5095304ef",
-      "OUT_NPN1"
+      "2dccfd7b-69f0-4b97-a6e1-c1e412fa5c14",
+      "OUT-PNP"
     ],
     [
-      "e099f52e-4c5e-45df-85a0-63537202b727",
-      "OUT_NPN2"
+      "d7efe19f-e511-4a70-9143-d7b7e8b791cc",
+      "OUT-NPN"
     ],
     [
-      "a55c3bdc-c67f-4f3b-bdd4-aab31e1812a7",
-      "OUT_NPN"
+      "20065da2-17e4-4bca-b0c0-12a2104d40c1",
+      "OUT-NPN1"
     ],
     [
-      "bdf1328c-5534-48c4-9ce6-d39462ee1e87",
-      "OUT_NPN3"
+      "e6d75fc0-930f-48ad-ab92-a65c466950b6",
+      "OUT-NPN2"
     ],
     [
       "df61efe4-a923-4526-ba02-7b2f723784ab",
       "RLY"
     ],
     [
-      "a589fd2f-9bcb-4933-8f7b-6b9231d69e8d",
-      "OUT_PNP"
+      "009579de-184b-42e1-8af9-e50d895be0bd",
+      "OUT-NPN3"
     ],
     [
       "a71cebd4-7657-453a-a956-fcb918a861e5",
@@ -739,6 +739,10 @@
     [
       "86e83b09-1d1d-4dc4-93ec-dcc941743466",
       "ENERGY-METER"
+    ],
+    [
+      "d865e0c0-4c56-4e21-9e64-3255d9731367",
+      "PowerSupply"
     ]
   ],
   "text_variables": {},
