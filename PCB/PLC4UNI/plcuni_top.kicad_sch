@@ -3461,6 +3461,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-PowerSymbol:VCC"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -7431,7 +7567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00a96a90-7476-45be-b84b-e60134fc595e")
-		(property "Reference" "C46"
+		(property "Reference" "C2"
 			(at 100.33 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7493,7 +7629,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "C46")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7510,7 +7646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01589e67-9ba6-4919-8beb-88f4e3f52c04")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR08"
 			(at 107.95 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -7570,7 +7706,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0104")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7587,7 +7723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04a700e3-5ca8-4338-925d-6e91629c1c17")
-		(property "Reference" "R74"
+		(property "Reference" "R1"
 			(at 121.92 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7651,7 +7787,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "R74")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7669,7 +7805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ede9ec2-962b-435e-8220-40d2f375abf4")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR014"
 			(at 129.54 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -7729,7 +7865,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0106")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7747,7 +7883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18b271a3-718f-426a-80ed-91916873e4a0")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR018"
 			(at 201.93 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -7807,7 +7943,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0112")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7825,7 +7961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1acc6661-5c78-44bf-864e-93c90d728843")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR07"
 			(at 92.71 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7885,7 +8021,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0101")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7902,7 +8038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d5fd393-bb8d-4413-8e94-76ac02530649")
-		(property "Reference" "R54"
+		(property "Reference" "R6"
 			(at 337.82 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,7 +8100,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "R54")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7982,7 +8118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2168e036-9fe2-4dff-8501-ab6c266c9a1f")
-		(property "Reference" "TP6"
+		(property "Reference" "TP3"
 			(at 99.06 23.3679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8044,7 +8180,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "TP6")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8062,7 +8198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25c216a3-c843-462e-af03-2ce8c836b25b")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR020"
 			(at 223.52 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8122,7 +8258,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR068")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8140,7 +8276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "268d8af6-1d2b-4a7f-bd09-7632effddf00")
-		(property "Reference" "D33"
+		(property "Reference" "D4"
 			(at 262.89 243.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8204,7 +8340,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "D33")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8222,7 +8358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27e3364a-199f-44c7-a156-effd69dfa060")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR023"
 			(at 289.56 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -8282,7 +8418,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0100")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8300,7 +8436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ac6abbb-7cc5-4a44-ad65-51c64adb3afc")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR012"
 			(at 128.27 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8360,7 +8496,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0108")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bf37b8d-1bd1-4d19-85fd-dee1efe1c2ed")
-		(property "Reference" "D36"
+		(property "Reference" "D1"
 			(at 223.52 242.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8442,7 +8578,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "D36")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8460,7 +8596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2efa7d98-0e2e-4e60-acff-251a8469d866")
-		(property "Reference" "D32"
+		(property "Reference" "D3"
 			(at 254 243.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8524,7 +8660,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "D32")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8541,7 +8677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39be251a-0084-4b19-a958-af32a37196f4")
-		(property "Reference" "TP7"
+		(property "Reference" "TP4"
 			(at 106.68 23.3679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8603,7 +8739,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "TP7")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8621,7 +8757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a759cdf-6dbb-4220-b597-0a6ddf04247b")
-		(property "Reference" "TP4"
+		(property "Reference" "TP1"
 			(at 68.58 23.3679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8682,7 +8818,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8700,7 +8836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45b23681-c9d2-4bd9-bc92-4a34e4735f70")
-		(property "Reference" "C45"
+		(property "Reference" "C1"
 			(at 100.584 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +8898,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "C45")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8780,7 +8916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a7f3d3-2024-478b-80e8-6b17332e5a88")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR06"
 			(at 40.64 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -8840,7 +8976,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR073")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8939,7 +9075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b084a6b-edcb-4c80-936a-f7886cdda92e")
-		(property "Reference" "R77"
+		(property "Reference" "R8"
 			(at 342.138 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9001,7 +9137,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "R77")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9019,7 +9155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b4e7f77-9d31-4c44-a7fe-27f111746ee4")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR022"
 			(at 256.54 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -9079,7 +9215,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR099")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9097,7 +9233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bbd3278-06a8-4f07-954a-e8ef0f6d4610")
-		(property "Reference" "D35"
+		(property "Reference" "D6"
 			(at 295.91 243.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9161,7 +9297,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "D35")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9179,7 +9315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c8cf1a1-d62e-4d61-92e1-a3417df02526")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR019"
 			(at 223.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9239,7 +9375,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR065")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9257,7 +9393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e02ff7c-8d09-4674-82aa-91a7aaf05601")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR011"
 			(at 128.27 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9317,7 +9453,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0109")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9335,7 +9471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e5eab3a-318b-472d-ac7c-701f960229c0")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR015"
 			(at 157.48 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9395,7 +9531,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR069")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9413,7 +9549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "692ce2e7-2a24-45d3-86e7-0ea9a27051be")
-		(property "Reference" "C38"
+		(property "Reference" "C4"
 			(at 161.29 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9477,7 +9613,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "C38")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9495,7 +9631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a43e250-8268-4d85-acf3-00ecdcc78701")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR017"
 			(at 158.75 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9555,7 +9691,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0110")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9573,7 +9709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e60fa3c-f541-4519-9f35-5fd0e6884abc")
-		(property "Reference" "R55"
+		(property "Reference" "R7"
 			(at 338.074 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9635,7 +9771,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "R55")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9653,7 +9789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f92a770-0d4a-44d5-a35e-9d96824f9e5c")
-		(property "Reference" "D34"
+		(property "Reference" "D5"
 			(at 287.02 243.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9717,7 +9853,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "D34")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9734,7 +9870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73f3cf94-f196-4fcb-8a93-7ed5563433b8")
-		(property "Reference" "R75"
+		(property "Reference" "R2"
 			(at 137.16 214.884 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9807,7 +9943,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "R75")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9939,7 +10075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88d04f27-e080-4ef8-97ee-1f270810c59d")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR016"
 			(at 157.48 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9999,7 +10135,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR072")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10016,7 +10152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a873168-c201-41b5-921c-9264cea7e6ea")
-		(property "Reference" "R76"
+		(property "Reference" "R5"
 			(at 331.978 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10078,7 +10214,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "R76")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10096,7 +10232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e2ddd35-98ad-4b7c-a9f1-02e2866db859")
-		(property "Reference" "U18"
+		(property "Reference" "U6"
 			(at 225.6633 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10277,7 +10413,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "U18")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -10295,7 +10431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "994e9a02-0c68-4ee7-acd7-bef5f6d583c4")
-		(property "Reference" "R53"
+		(property "Reference" "R3"
 			(at 160.02 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10359,7 +10495,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "R53")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10377,7 +10513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8156f51-ef98-4743-906a-9ece7161e131")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR021"
 			(at 226.06 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -10437,7 +10573,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0103")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10558,6 +10694,84 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:VCC")
+		(at 40.64 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d65a02-bba5-4e87-85bd-ba45eb838dc2")
+		(property "Reference" "#PWR05"
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 40.64 87.63 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 40.64 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f870cce-b9f2-4258-9437-bd54cdd32116")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:ESD5Z3.3T")
 		(at 229.87 243.84 90)
 		(unit 1)
@@ -10569,7 +10783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf11b249-56d4-4f22-9009-89cdd186e16e")
-		(property "Reference" "D37"
+		(property "Reference" "D2"
 			(at 232.41 242.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10633,7 +10847,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "D37")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10772,7 +10986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e399da39-e38c-4322-b294-470a133672c3")
-		(property "Reference" "C47"
+		(property "Reference" "C3"
 			(at 145.034 20.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,7 +11050,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "C47")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10853,7 +11067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4ab4cd4-6213-425f-8216-9932953d5fe8")
-		(property "Reference" "U19"
+		(property "Reference" "U5"
 			(at 125.984 21.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10941,7 +11155,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "U19")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10958,7 +11172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8dd72f9-7a3a-4ccb-8737-04535aa43089")
-		(property "Reference" "R78"
+		(property "Reference" "R4"
 			(at 204.47 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11022,85 +11236,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "R78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
-		(at 40.64 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e93cae23-69ab-4eb5-a21b-fa293058c296")
-		(property "Reference" "#PWR075"
-			(at 40.64 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 40.64 87.63 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 40.64 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30e53d36-7fe7-41a4-b3b9-c41918149853")
-		)
-		(instances
-			(project "PLC4UNI"
-				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR075")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11118,7 +11254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9fcfdd7-9320-4fa0-b85e-9a2c3475104a")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 77.47 23.3679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11179,7 +11315,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11197,7 +11333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f25b66ce-5829-4f36-a109-f9e5217eb809")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR024"
 			(at 335.28 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -11257,7 +11393,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0111")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11276,7 +11412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f513b983-1f0c-44fe-bc8d-bae9589e76d9")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR010"
 			(at 119.38 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11336,7 +11472,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0102")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11354,7 +11490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fadd6fea-323f-4e3a-9a69-98ad15667dd5")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR013"
 			(at 129.54 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -11414,7 +11550,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0107")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11432,7 +11568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe912b3d-1692-4c0f-ba69-a3110e44e7a3")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR09"
 			(at 107.95 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -11492,7 +11628,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2"
-					(reference "#PWR0105")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
