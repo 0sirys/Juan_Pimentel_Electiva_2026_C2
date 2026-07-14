@@ -1380,7 +1380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e392ef9-4c54-4683-9d9c-cd65c62983dc")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR072"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1440,7 +1440,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/e486f5e9-b2bf-4d97-92b7-5e2869d38d01"
-					(reference "#PWR070")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -1540,7 +1540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34e5207d-aba4-4375-a974-a09d9f14539f")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR069"
 			(at 132.08 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1600,7 +1600,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/e486f5e9-b2bf-4d97-92b7-5e2869d38d01"
-					(reference "#PWR067")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1618,7 +1618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aeff1ff-14f6-4b42-9e76-b3f3129b10a3")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR070"
 			(at 137.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1678,7 +1678,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/e486f5e9-b2bf-4d97-92b7-5e2869d38d01"
-					(reference "#PWR068")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1696,7 +1696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "769eaf13-6ea9-4300-be68-980025411024")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR067"
 			(at 95.25 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1756,7 +1756,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/e486f5e9-b2bf-4d97-92b7-5e2869d38d01"
-					(reference "#PWR065")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1774,7 +1774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7b7e1e2-0895-4feb-9c91-efcda73040b4")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR071"
 			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1834,7 +1834,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/e486f5e9-b2bf-4d97-92b7-5e2869d38d01"
-					(reference "#PWR069")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1852,7 +1852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abc388b6-b75c-4fb4-9340-24c82bf0f13e")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR068"
 			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1912,7 +1912,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/e486f5e9-b2bf-4d97-92b7-5e2869d38d01"
-					(reference "#PWR066")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af23762b-08d5-4f14-a125-185542843c08")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR073"
 			(at 173.99 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1990,7 +1990,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/e486f5e9-b2bf-4d97-92b7-5e2869d38d01"
-					(reference "#PWR071")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

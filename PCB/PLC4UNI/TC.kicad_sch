@@ -1449,6 +1449,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 90.17) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee1c3fa-3f22-478b-8250-b6ee1a137dd4")
+	)
+	(wire
+		(pts
 			(xy 120.65 67.31) (xy 120.65 68.58)
 		)
 		(stroke
@@ -1616,6 +1626,16 @@
 			(type default)
 		)
 		(uuid "cd31afea-6abb-48f5-a45c-e7e9714d3436")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 167.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbfb603-59bd-418e-8d8a-beb5e23c1d5d")
 	)
 	(wire
 		(pts
@@ -1969,7 +1989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32aa5c07-bafd-4505-9a66-31e60d764df1")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 114.3 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2029,7 +2049,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/3e950c18-f024-4a39-8426-11ddc61c10ea"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2208,7 +2228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4286fffb-7353-4a68-b840-1485457bf152")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 179.07 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2268,7 +2288,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/3e950c18-f024-4a39-8426-11ddc61c10ea"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2427,6 +2447,84 @@
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/3e950c18-f024-4a39-8426-11ddc61c10ea"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 167.64 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79b9dd84-e1ac-4def-b447-b9e258dfa579")
+		(property "Reference" "#PWR062"
+			(at 167.64 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 102.87 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf8076ad-a1e4-420d-bff6-5b2052c79a6d")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/3e950c18-f024-4a39-8426-11ddc61c10ea"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2687,7 +2785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97197e8e-d33e-4027-8b2a-9d3d74330212")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 179.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2747,7 +2845,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/3e950c18-f024-4a39-8426-11ddc61c10ea"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2844,7 +2942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be9821d2-9088-461e-ab9c-a5b87ccaff5f")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR066"
 			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2904,7 +3002,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/3e950c18-f024-4a39-8426-11ddc61c10ea"
-					(reference "#PWR064")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2922,7 +3020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfe05cfc-df85-4739-b66b-605f2c26da9e")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2982,7 +3080,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/3e950c18-f024-4a39-8426-11ddc61c10ea"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3000,7 +3098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9034880-6a42-4c7a-ab30-fdddcb7c6d54")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR065"
 			(at 185.42 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3060,7 +3158,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/3e950c18-f024-4a39-8426-11ddc61c10ea"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3306,7 +3404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f34f2bdf-a5ec-40cb-8d83-9008e7285a52")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 135.89 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3366,7 +3464,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/3e950c18-f024-4a39-8426-11ddc61c10ea"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)

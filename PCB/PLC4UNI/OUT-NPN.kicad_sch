@@ -1309,7 +1309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e1d9f47-e6bb-4646-b16f-853e758aec04")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1369,19 +1369,19 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/009579de-184b-42e1-8af9-e50d895be0bd"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/20065da2-17e4-4bca-b0c0-12a2104d40c1"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/d7efe19f-e511-4a70-9143-d7b7e8b791cc"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/e6d75fc0-930f-48ad-ab92-a65c466950b6"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1492,7 +1492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dfb9ae3-2c7a-4a2e-883a-c357476bf23f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 153.67 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1552,19 +1552,19 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/009579de-184b-42e1-8af9-e50d895be0bd"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/20065da2-17e4-4bca-b0c0-12a2104d40c1"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/d7efe19f-e511-4a70-9143-d7b7e8b791cc"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/f171b770-6a1a-4d3a-9dbb-25a622b94557/79ee6e1c-834c-43ff-8dcc-1385cc20b4c2/e6d75fc0-930f-48ad-ab92-a65c466950b6"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
