@@ -6408,16 +6408,6 @@
 		)
 		(uuid "fff3200e-ee78-4b94-b38e-54561286b2a2")
 	)
-	(label "IN_PNP1"
-		(at 222.25 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "02e95003-fb68-4e75-9826-a4f5dbaaa037")
-	)
 	(label "SPI_CLK"
 		(at 255.27 238.76 180)
 		(effects
@@ -6498,16 +6488,6 @@
 		)
 		(uuid "0f64edf6-349f-47ae-a295-bbba098a3ac1")
 	)
-	(label "IN_PNP1"
-		(at 123.19 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0fdcaa83-2f7c-4ee6-9d06-0160b2f214e0")
-	)
 	(label "EN"
 		(at 152.4 77.47 0)
 		(effects
@@ -6538,26 +6518,6 @@
 		)
 		(uuid "179c7fce-9f30-4029-8c92-31c02ac47c8e")
 	)
-	(label "RS485-TX"
-		(at 274.32 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ac1aaaa-e2ae-48b6-a38c-ac1630516443")
-	)
-	(label "OUT_NPN4"
-		(at 274.32 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b77d4e0-560a-4460-a183-a3aac4653050")
-	)
 	(label "RESET"
 		(at 274.32 115.57 0)
 		(effects
@@ -6568,16 +6528,6 @@
 		)
 		(uuid "1e6c9649-28b1-45f2-9912-dabe78d14d25")
 	)
-	(label "I2C_SCK"
-		(at 274.32 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "211fa8af-6ec4-4aa2-b899-4e4f1c18ac79")
-	)
 	(label "SPI_MISO"
 		(at 107.95 233.68 180)
 		(effects
@@ -6587,16 +6537,6 @@
 			(justify right)
 		)
 		(uuid "234e9dfe-d7af-468f-9e8f-e581b3f1ea69")
-	)
-	(label "I2C_SDA"
-		(at 274.32 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24594c59-45a6-4bd9-b160-a432bccc5243")
 	)
 	(label "RESET"
 		(at 107.95 228.6 180)
@@ -6678,6 +6618,26 @@
 		)
 		(uuid "2d50d1e1-ae3e-4c5c-a285-b38e3063e236")
 	)
+	(label "I2C_SCK"
+		(at 274.32 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ffa79cd-50dd-45b8-9411-ff4dfefe19f9")
+	)
+	(label "OUT_NPN1"
+		(at 274.32 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3216d47d-f4d7-46fa-ba18-96b1c10ee7ea")
+	)
 	(label "SPI_MISO"
 		(at 274.32 148.59 0)
 		(effects
@@ -6719,14 +6679,14 @@
 		(uuid "3bbd620f-94aa-4bf2-b00b-bc9666f248c8")
 	)
 	(label "IN_NPN3"
-		(at 274.32 120.65 0)
+		(at 274.32 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3f2cceaa-8af1-4043-ac69-b874e7efd41d")
+		(uuid "3d36eeb3-0537-473e-a90c-e6a7f6ab6bb3")
 	)
 	(label "OUT_RLY2"
 		(at 337.82 171.45 180)
@@ -6738,6 +6698,16 @@
 		)
 		(uuid "3f682b1b-335c-4653-92e2-5639bf6890a2")
 	)
+	(label "I2C_SDA"
+		(at 274.32 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fd4e5bf-1541-4857-93a5-696c11bd1329")
+	)
 	(label "SD_CS"
 		(at 294.64 238.76 0)
 		(effects
@@ -6748,7 +6718,7 @@
 		)
 		(uuid "4485ac64-1ffb-4c2c-a2b5-a524e2937f84")
 	)
-	(label "IN_NPN1"
+	(label "OUT_NPN4"
 		(at 274.32 151.13 0)
 		(effects
 			(font
@@ -6756,17 +6726,7 @@
 			)
 			(justify left)
 		)
-		(uuid "49ad74c8-d406-4b0a-aa6b-bf45daa442e5")
-	)
-	(label "IN_PNP2"
-		(at 274.32 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4af04baf-d761-4a3c-95e6-b9b68a839086")
+		(uuid "454302ac-f15e-40af-81f2-56f49da2abf3")
 	)
 	(label "LCD_CS"
 		(at 172.72 123.19 180)
@@ -6818,26 +6778,6 @@
 		)
 		(uuid "5c36addc-0158-482a-a52a-2bd0c479b2b3")
 	)
-	(label "OUT_NPN3"
-		(at 274.32 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d3ceb81-7d09-4567-8e31-3075ba372f47")
-	)
-	(label "OUT_NPN2"
-		(at 274.32 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64cd7519-1216-4194-b374-f948f74da4c4")
-	)
 	(label "USB+"
 		(at 129.54 238.76 0)
 		(effects
@@ -6847,6 +6787,16 @@
 			(justify left)
 		)
 		(uuid "677120f6-f0b0-47c4-be58-ddb80a53c8bd")
+	)
+	(label "IN_NPN2"
+		(at 274.32 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f687d0b-bd51-4d44-a458-bbff9c2244fe")
 	)
 	(label "I2C_SDA"
 		(at 144.78 39.37 0)
@@ -6867,16 +6817,6 @@
 			(justify left)
 		)
 		(uuid "7142bfb6-e326-47e4-8fa8-25271b0b1ba5")
-	)
-	(label "IN_NPN2"
-		(at 274.32 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72ecded0-6f6c-4b79-8a21-13c3cc5517b0")
 	)
 	(label "I2C_SDA"
 		(at 129.54 231.14 0)
@@ -6948,16 +6888,6 @@
 		)
 		(uuid "7db5fd33-1ac9-4cdf-97f3-01c70d4d321d")
 	)
-	(label "IN_PNP1"
-		(at 274.32 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7dde3cc8-a5cf-455d-a4d1-244184c30397")
-	)
 	(label "USB-"
 		(at 274.32 110.49 0)
 		(effects
@@ -6977,6 +6907,26 @@
 			(justify left)
 		)
 		(uuid "8115afd6-cebf-4530-896d-c3abcc698f8d")
+	)
+	(label "IN_PNP2"
+		(at 274.32 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8126300f-e5c5-4c97-891c-7084fd475b22")
+	)
+	(label "IN_PNP1"
+		(at 274.32 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81d3b6b5-6fb7-4676-8e60-85064a536d7d")
 	)
 	(label "OUT_RLY2"
 		(at 274.32 161.29 0)
@@ -7008,6 +6958,16 @@
 		)
 		(uuid "874c0bbe-08c9-4a82-9900-e5705437e22f")
 	)
+	(label "IN_NPN4"
+		(at 274.32 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88a03c2e-147e-43f7-9cac-6b41f433eda0")
+	)
 	(label "LED_INFO"
 		(at 199.39 231.14 180)
 		(effects
@@ -7027,6 +6987,16 @@
 			(justify left)
 		)
 		(uuid "98800866-35f5-4366-af5a-7af0c8c1240c")
+	)
+	(label "IN_PNP2"
+		(at 222.25 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0513e0f-e1da-4575-bd9d-cd09f8d48d03")
 	)
 	(label "EM_TX"
 		(at 74.93 229.87 0)
@@ -7057,6 +7027,16 @@
 			(justify left)
 		)
 		(uuid "aa15b087-185f-4181-977a-f5d95cb7f319")
+	)
+	(label "RS485-TX"
+		(at 274.32 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aca10c46-1ef1-4e57-8ee4-a3dd3cf64fb6")
 	)
 	(label "OUT_NPN4"
 		(at 340.36 143.51 180)
@@ -7098,6 +7078,16 @@
 		)
 		(uuid "b61b2519-8763-4247-8036-14e208c7caea")
 	)
+	(label "IN_NPN1"
+		(at 274.32 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b94868e5-4bef-4c9a-91d3-8c47c3e7d56e")
+	)
 	(label "IN_PNP2"
 		(at 72.39 180.34 0)
 		(effects
@@ -7128,15 +7118,25 @@
 		)
 		(uuid "bd956bfe-66a2-46be-84d7-e3e1ac580f33")
 	)
-	(label "IN_NPN4"
-		(at 274.32 123.19 0)
+	(label "IN_PNP2"
+		(at 123.19 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "be216bb0-6b20-4fcd-91b7-02581ae1a7dc")
+		(uuid "c186e3a4-abd1-4bec-b03c-74df5ff3eb27")
+	)
+	(label "OUT_NPN2"
+		(at 274.32 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c94ccd2c-1ee6-4d9a-a10c-32d86d65cbdc")
 	)
 	(label "SPI_MISO"
 		(at 68.58 204.47 0)
@@ -7188,16 +7188,6 @@
 		)
 		(uuid "def726ae-a407-490d-aa8a-28c66b7bb19d")
 	)
-	(label "OUT_NPN1"
-		(at 274.32 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0027ea1-0198-4e8a-98f9-bd977ca3dbc0")
-	)
 	(label "SPI_MOSI"
 		(at 274.32 143.51 0)
 		(effects
@@ -7217,6 +7207,16 @@
 			(justify left)
 		)
 		(uuid "eb964512-20f1-4aff-aef0-b373a1918f57")
+	)
+	(label "OUT_NPN3"
+		(at 274.32 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee306226-615d-44c5-977f-971c5916b057")
 	)
 	(label "IN_NPN2"
 		(at 72.39 115.57 0)
