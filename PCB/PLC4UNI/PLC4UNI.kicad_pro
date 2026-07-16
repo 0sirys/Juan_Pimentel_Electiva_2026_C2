@@ -169,7 +169,7 @@
         {
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
+          "td_onsmdpad": false,
           "td_ontrackend": false,
           "td_onvia": true
         }
@@ -726,7 +726,7 @@
         "uuid": "f171b770-6a1a-4d3a-9dbb-25a622b94557"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR106",
     "variants": []
   },
   "sheets": [
