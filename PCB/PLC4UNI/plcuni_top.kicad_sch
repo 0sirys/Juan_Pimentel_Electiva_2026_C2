@@ -10300,7 +10300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Espressif:ESP32-S3-WROOM-1"
+		(property "Footprint" "Espressif:ESP32-S3-WROOM-1U"
 			(at 226.06 184.15 0)
 			(hide yes)
 			(show_name no)
