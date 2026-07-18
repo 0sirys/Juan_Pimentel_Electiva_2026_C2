@@ -1,3 +1,4 @@
 *.FCBak
 temp/
 .history/
+*.lck
