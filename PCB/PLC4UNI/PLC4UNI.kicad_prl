@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -17,14 +17,14 @@
     },
     "prototype_zone_fills": false,
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
+      "dimensions": true,
+      "footprints": true,
       "graphics": true,
-      "keepouts": false,
-      "lockedItems": false,
-      "otherItems": false,
+      "keepouts": true,
+      "lockedItems": true,
+      "otherItems": true,
       "pads": true,
-      "text": false,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -96,18 +96,18 @@
       11
     ],
     "col_widths": [
-      149,
-      138,
+      119,
+      110,
       98,
       79,
-      90,
+      85,
       99,
-      90,
+      87,
       83,
-      90,
-      90,
-      90,
-      90
+      72,
+      72,
+      72,
+      72
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
